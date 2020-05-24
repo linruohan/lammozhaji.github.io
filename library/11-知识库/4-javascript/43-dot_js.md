@@ -37,9 +37,9 @@ $("#interpolation").html(interText(dataInter));
 ### 例子二：2，用于循环中的评估
 ```js
 //格式：
-{{ for var key in data { }} 
+{{ for var key in data \{ }} 
 {{= key }} 
-{{ } }}
+{{ \} }}
 //数据源：
 {"name":"Jake","age":31,"interests":["basketball","hockey","photography"],"contact":{"email":"jake@xyz.com","phone":"999999999"}}
 //区域：
